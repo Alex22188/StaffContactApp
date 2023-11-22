@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StaffContactApp.UpdatePeople"
+             Title="UpdatePeople">
+    
+    <ContentPage.Content>
+        <Frame BackgroundColor="#F5F5DC" Padding="10" Margin="20">
+            <StackLayout>
+                <!-- Input Fields fo Updating Student Details -->
+                <Entry x:Name="IdEntry" Placeholder="Id" />
+                <Entry x:Name="NameEntry" Placeholder="Name" />
+                <Entry x:Name="PhoneEntry" Placeholder="Phone" />
+                <Entry x:Name="DepartmentEntry" Placeholder="Department" />
+                <Entry x:Name="AddressStreetEntry" Placeholder="AddressStreet" />
+                <Entry x:Name="AddressCityEntry" Placeholder="AddressCity" />
+                <Entry x:Name="AddressStateEntry" Placeholder="AddressState" />
+                <Entry x:Name="AddressZIPEntry" Placeholder="AddressZIP" />
+                <Entry x:Name="AddressCountryEntry" Placeholder="AddressCountry" />
+
+
+
+                <Button Text="Update" Clicked="UpdatePeople_Clicked" />
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
