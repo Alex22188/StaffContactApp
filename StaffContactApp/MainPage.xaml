@@ -6,7 +6,16 @@
 
 
    
-      
+     
+
+            
+            <ScrollView>
+
+
+
+        <ScrollView>
+
+ 
             <Grid>
     <Grid.RowDefinitions>
         <RowDefinition Height="150"/>
@@ -34,21 +43,12 @@
 
         </StackLayout>
         <StackLayout>
-
-            
-            <ScrollView>
-
-
-
-        <ScrollView>
-
-
           
           
-                    <Frame Padding="10" Margin="20">
+                
 
 
-                        <StackLayout>
+                        
 
                         
 
