@@ -4,19 +4,56 @@
              x:Class="StaffContactApp.PeopleDetails"
              Title="PeopleDetails">
 
+<Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="burntorangetextureimage.png " Aspect="AspectFill" Grid.ColumnSpan="2"/>
+
+
+
+        <StackLayout>
+            <Image Source="roilogo.png"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Grid.Column="2"/>
+        </StackLayout>
+
+    </Grid>
+    <Grid Grid.Row="2" Padding="5">
+        <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand">
+
+
+
+        </StackLayout>
+        <StackLayout>
 
     <StackLayout>
         <Frame BackgroundColor="Maroon" Padding="10" Margin="20">
             <StackLayout>
 
-                <Label Text="{Binding Name}"/>
-                <Label Text="{Binding Phone}"/>
-                <Label Text="{Binding Department}"/>
-                <Label Text="{Binding AddressStreet}"/>
-                <Label Text="{Binding AddressCity}"/>
-                <Label Text="{Binding AddressState}"/>
-                <Label Text="{Binding AddressZIP}"/>
-                <Label Text="{Binding AddressCountry}"/>
+                 <Label Text="Id:"/>
+  <Label Text="{Binding Id}"/>
+  <Label Text="Name:"/>
+  <Label Text="{Binding Name}"/>
+  <Label Text="Phone:"/>
+  <Label Text="{Binding Phone}"/>
+  <Label Text="Department:"/>
+  <Label Text="{Binding Department}"/>
+  <Label Text="Street Address:"/>
+  <Label Text="{Binding AddressStreet}"/>
+  <Label Text="City:"/>
+  <Label Text="{Binding AddressCity}"/>
+  <Label Text="State:"/>
+  <Label Text="{Binding AddressState}"/>
+  <Label Text="ZIP:"/>
+  <Label Text="{Binding AddressZIP}"/>
+  <Label Text="Country:"/>
+  <Label Text="{Binding AddressCountry}"/>
 
             </StackLayout>
         </Frame>
