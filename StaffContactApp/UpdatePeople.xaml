@@ -4,7 +4,37 @@
              x:Class="StaffContactApp.UpdatePeople"
              Title="UpdatePeople">
     
-    <ContentPage.Content>
+  
+
+  <Grid>
+      <Grid.RowDefinitions>
+          <RowDefinition Height="150"/>
+          <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid Grid.Row="0">
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="100"/>
+              <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+      <Image Source="burntorangetextureimage.png " Aspect="AspectFill" Grid.ColumnSpan="2"/>
+
+
+     
+          <StackLayout>
+          <Image Source="roilogo.png"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Grid.Column="2"/>
+          </StackLayout>
+            
+  </Grid>
+  <Grid Grid.Row="2" Padding="5">
+      <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand">
+        
+ 
+
+      </StackLayout>
+      <StackLayout>
+
+<ContentPage.Content>
         <Frame BackgroundColor="#F5F5DC" Padding="10" Margin="20">
             <StackLayout>
                 <!-- Input Fields fo Updating Student Details -->
